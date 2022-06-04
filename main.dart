@@ -14,8 +14,6 @@
 // }
 
 void main(List<String> args) {
-  const bool yes = true;
-  const bool no = false;
-
-  print(yes);
+  const passingGrade = 50;
+  const studentGrade = 74;
 }
