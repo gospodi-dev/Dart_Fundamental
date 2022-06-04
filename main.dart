@@ -15,10 +15,14 @@
 
 void main(List<String> args) {
   const passingGrade = 50;
-  const studentGrade = 74;
+  // const studentGrade = 74;
+  const studentGrade = 50;
 
   const studentPassed = studentGrade > passingGrade;
   print(studentPassed);
+
+  const studentFailed = studentGrade < passingGrade;
+  print(studentFailed);
 
   // if studentGrade
   // print(studentGrade);
