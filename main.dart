@@ -18,11 +18,15 @@ void main(List<String> args) {
   // const studentGrade = 74;
   const studentGrade = 50;
 
-  const studentPassed = studentGrade > passingGrade;
+  // const studentPassed = studentGrade > passingGrade;
+  const studentPassed = studentGrade >= passingGrade;
   print(studentPassed);
 
   const studentFailed = studentGrade < passingGrade;
   print(studentFailed);
+
+  const chrisGrade = 49;
+  const samGrade = 99;
 
   // if studentGrade
   // print(studentGrade);
