@@ -3,6 +3,11 @@ void main(List<String> args) {
   const isVotingAge = myAge >= 18;
 
   print(isVotingAge);
+
+  const student = 'Петя Писин';
+  const autor = 'Сеня Сисин';
+  const autorIsStudent = student == autor;
+  print(autorIsStudent);
 }
 
 
