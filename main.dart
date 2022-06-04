@@ -30,6 +30,11 @@ void main(List<String> args) {
 
   print(samGrade != chrisGrade);
 
+  const nameCat = 'Буся';
+  const nameDog = 'Вася';
+
+  print(nameCat != nameDog);
+
   // if studentGrade
   // print(studentGrade);
 }
