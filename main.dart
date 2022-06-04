@@ -4,5 +4,7 @@ void main(List<String> args) {
   const boillingPoint = 100;
   var gradePointAverage = 3.5;
 
+  // Добавление коментария
+
   print(welcomeMessage);
 }
