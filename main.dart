@@ -16,4 +16,10 @@
 void main(List<String> args) {
   const passingGrade = 50;
   const studentGrade = 74;
+
+  const studentPassed = studentGrade > passingGrade;
+  print(studentPassed);
+
+  // if studentGrade
+  // print(studentGrade);
 }
