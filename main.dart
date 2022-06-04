@@ -28,6 +28,8 @@ void main(List<String> args) {
   const chrisGrade = 49;
   const samGrade = 99;
 
+  print(samGrade != chrisGrade);
+
   // if studentGrade
   // print(studentGrade);
 }
