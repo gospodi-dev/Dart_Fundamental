@@ -18,6 +18,8 @@ void main(List<String> args) {
   print(message);
 
   const betterStudent = (samGrade > chrisGrade) ? 'Sam' : 'Chris';
+
+  print(betterStudent);
 }
 
 
