@@ -22,6 +22,13 @@ void main(List<String> args) {
 
   const eitherPassed = chrisPassed || samPassed;
   print(eitherPassed);
+
+  const metritAwardsGrade = 90;
+  const samHasPerfectAttendace = true;
+
+  const samIsMetritStudent =
+      samHasPerfectAttendace && samGrade > metritAwardsGrade;
+  print(samHasPerfectAttendace);
 }
 
 
