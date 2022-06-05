@@ -8,8 +8,8 @@ void main(List<String> args) {
   const chrisPassed = chrisGrade >= passingGrade;
   const samPassed = samGrade >= passingGrade;
 
-  print(samPassed == false);
-  print(chrisPassed == true);
+  print(!samPassed);
+  print(!chrisPassed);
 }
 
 
