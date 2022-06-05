@@ -3,6 +3,13 @@ void main(List<String> args) {
   const studentGrade = 50;
   const chrisGrade = 49;
   const samGrade = 99;
+
+  const studentPassed = studentGrade >= passingGrade;
+  const chrisPassed = chrisGrade >= passingGrade;
+  const samPassed = samGrade >= passingGrade;
+
+  print(samPassed == false);
+  print(chrisPassed == true);
 }
 
 
