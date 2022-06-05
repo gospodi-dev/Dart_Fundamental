@@ -5,6 +5,15 @@ void main(List<String> args) {
   const meritAwardGrande = 90;
   const chrisIsMeritStudent =
       chrisHasPerfectAttendnace && chrisGrade > meritAwardGrande;
+
+  print(chrisIsMeritStudent);
+
+  if (chrisIsMeritStudent) {
+    message = 'Поздравлямба!';
+  } else {
+    message = 'Продолжай учиться!!!';
+  }
+  print(message);
 }
 
 
