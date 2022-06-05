@@ -1,35 +1,44 @@
 void main(List<String> args) {
-  const passingGrade = 50;
-  const studentGrade = 50;
+  String message;
+  const chrisHasPerfectAttendnace = true;
   const chrisGrade = 49;
-  const samGrade = 99;
-
-  const studentPassed = studentGrade >= passingGrade;
-  const chrisPassed = chrisGrade >= passingGrade;
-  const samPassed = samGrade >= passingGrade;
-
-  print(!samPassed);
-  print(!chrisPassed);
-
-  // AND Operator
-  // &&
-
-  const bothPassed = chrisPassed && samPassed;
-  print(bothPassed);
-
-  // OR Operator
-  // ||
-
-  const eitherPassed = chrisPassed || samPassed;
-  print(eitherPassed);
-
-  const metritAwardsGrade = 90;
-  const samHasPerfectAttendace = true;
-
-  const samIsMetritStudent =
-      samHasPerfectAttendace && samGrade > metritAwardsGrade;
-  print(samHasPerfectAttendace);
+  const meritAwardGrande = 90;
 }
+
+
+
+// void main(List<String> args) {
+//   const passingGrade = 50;
+//   const studentGrade = 50;
+//   const chrisGrade = 49;
+//   const samGrade = 99;
+
+//   const studentPassed = studentGrade >= passingGrade;
+//   const chrisPassed = chrisGrade >= passingGrade;
+//   const samPassed = samGrade >= passingGrade;
+
+//   print(!samPassed);
+//   print(!chrisPassed);
+
+//   // AND Operator
+//   // &&
+
+//   const bothPassed = chrisPassed && samPassed;
+//   print(bothPassed);
+
+//   // OR Operator
+//   // ||
+
+//   const eitherPassed = chrisPassed || samPassed;
+//   print(eitherPassed);
+
+//   const metritAwardsGrade = 90;
+//   const samHasPerfectAttendace = true;
+
+//   const samIsMetritStudent =
+//       samHasPerfectAttendace && samGrade > metritAwardsGrade;
+//   print(samHasPerfectAttendace);
+// }
 
 
 
