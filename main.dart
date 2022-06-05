@@ -1,22 +1,23 @@
 void main(List<String> args) {
-  const myAge = 40;
-  const isVotingAge = myAge >= 18;
-
-  print(isVotingAge);
-
-  const student = 'Петя Писин';
-  const autor = 'Сеня Сисин';
-  const autorIsStudent = student == autor;
-  print(autorIsStudent);
+  const passingGrade = 50;
+  const studentGrade = 50;
+  const chrisGrade = 49;
+  const samGrade = 99;
 }
 
 
 
+// void main(List<String> args) {
+//   const myAge = 40;
+//   const isVotingAge = myAge >= 18;
 
+//   print(isVotingAge);
 
-
-
-
+//   const student = 'Петя Писин';
+//   const autor = 'Сеня Сисин';
+//   const autorIsStudent = student == autor;
+//   print(autorIsStudent);
+// }
 
 // void main(List<String> args) {
 //   var welcomeMessage = 'hello world';
