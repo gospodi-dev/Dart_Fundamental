@@ -23,15 +23,19 @@ void main(List<String> args) {
 
   //Challenge time
 
-  const myAge = 40;
+  const myAge = 10;
   String message;
 
-  if (myAge >= 13 && myAge <= 18) {
-    message = 'I am Tintin!';
-  } else {
-    message = 'I am very old man :(';
-  }
-  print(message);
+  // if (myAge >= 13 && myAge <= 18) {
+  //   message = 'I am Tintin!';
+  // } else {
+  //   message = 'I am very old man :(';
+  // }
+
+  const messageAge =
+      (myAge >= 13 && myAge <= 18) ? 'I am Tintin!' : 'I am very old man';
+
+  print(messageAge);
 }
 
 
