@@ -6,6 +6,8 @@ void main(List<String> args) {
   const chrisIsMeritStudent =
       chrisHasPerfectAttendnace && chrisGrade > meritAwardGrande;
 
+  const samGrade = 99;
+
   print(chrisIsMeritStudent);
 
   if (chrisIsMeritStudent) {
@@ -14,6 +16,8 @@ void main(List<String> args) {
     message = 'Продолжай учиться!!!';
   }
   print(message);
+
+  const betterStudent = (samGrade > chrisGrade) ? 'Sam' : 'Chris';
 }
 
 
