@@ -10,6 +10,12 @@ void main(List<String> args) {
 
   print(!samPassed);
   print(!chrisPassed);
+
+  // AND Operator
+  // &&
+
+  const bothPassed = chrisPassed && samPassed;
+  print(bothPassed);
 }
 
 
