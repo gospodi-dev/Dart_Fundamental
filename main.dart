@@ -16,6 +16,12 @@ void main(List<String> args) {
 
   const bothPassed = chrisPassed && samPassed;
   print(bothPassed);
+
+  // OR Operator
+  // ||
+
+  const eitherPassed = chrisPassed || samPassed;
+  print(eitherPassed);
 }
 
 
