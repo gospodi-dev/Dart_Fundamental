@@ -3,6 +3,8 @@ void main(List<String> args) {
   const chrisHasPerfectAttendnace = true;
   const chrisGrade = 49;
   const meritAwardGrande = 90;
+  const chrisIsMeritStudent =
+      chrisHasPerfectAttendnace && chrisGrade > meritAwardGrande;
 }
 
 
