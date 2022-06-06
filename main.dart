@@ -21,6 +21,8 @@ void main(List<String> args) {
   print(pastries.last);
   // print(pastries.single);
 
+  print(pastries.contains('cookie'));
+
   // var pastries = <String>[];
   // pastries.add('dupik');
 
