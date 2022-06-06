@@ -1,10 +1,13 @@
 void main(List<String> args) {
-  var pastries = <String>[];
-  pastries.add('dupik');
+  const pastries = ['cookie', 'cupcake', 'donut', 'pie'];
+  print(pastries[3]);
 
-  pastries += ['cupcake', 'donut', 'pie', 'brownie'];
+  // var pastries = <String>[];
+  // pastries.add('dupik');
 
-  print(pastries);
+  // pastries += ['cupcake', 'donut', 'pie', 'brownie'];
+
+  // print(pastries);
 }
 
 
