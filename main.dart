@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  const pastries = ['cookie', 'cupcake', 'donut', 'pie'];
+  var pastries = ['cookie', 'cupcake', 'donut', 'pie'];
   print(pastries[3]);
 
   var morePastries = pastries.sublist(1, 3);
@@ -22,6 +22,11 @@ void main(List<String> args) {
   // print(pastries.single);
 
   print(pastries.contains('cookie'));
+
+  pastries.add('brownie');
+  print(pastries);
+  pastries[4] = 'cream puff';
+  print(pastries);
 
   // var pastries = <String>[];
   // pastries.add('dupik');
