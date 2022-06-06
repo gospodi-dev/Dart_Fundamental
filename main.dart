@@ -31,6 +31,11 @@ void main(List<String> args) {
   pastries.insert(3, 'tart');
   print(pastries);
 
+  const grades = [82, 76, 88, 92];
+  var sum = grades[0] + grades[1] + grades[2] + grades[3];
+  var average = sum / 4;
+  print('среднее число - $average');
+
   // var list = [1, 2, 3];
   // assert(list.length == 3);
   // assert(list[1] == 2);
