@@ -28,6 +28,9 @@ void main(List<String> args) {
   pastries[4] = 'cream puff';
   print(pastries);
 
+  pastries.insert(3, 'tart');
+  print(pastries);
+
   // var pastries = <String>[];
   // pastries.add('dupik');
 
