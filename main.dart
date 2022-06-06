@@ -9,6 +9,9 @@ void main(List<String> args) {
   print(morePastries);
   print(morePastries.isEmpty);
 
+  print(pastries[0]);
+  print(pastries.first);
+
   // var pastries = <String>[];
   // pastries.add('dupik');
 
