@@ -31,6 +31,13 @@ void main(List<String> args) {
   pastries.insert(3, 'tart');
   print(pastries);
 
+  // var list = [1, 2, 3];
+  // assert(list.length == 3);
+  // assert(list[1] == 2);
+
+  // list[1] = 1;
+  // assert(list[1] == 1);
+  // print(list);
   // var pastries = <String>[];
   // pastries.add('dupik');
 
