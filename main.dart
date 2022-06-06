@@ -31,9 +31,10 @@ void main(List<String> args) {
   pastries.insert(3, 'tart');
   print(pastries);
 
+  // Challenge time
   const grades = [82, 76, 88, 92];
-  var sum = grades[0] + grades[1] + grades[2] + grades[3];
-  var average = sum / 4;
+  var sum = grades.first + grades[1] + grades[2] + grades.last;
+  var average = sum / grades.length;
   print('среднее число - $average');
 
   // var list = [1, 2, 3];
