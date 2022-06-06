@@ -1,5 +1,5 @@
 void main(List<String> args) {
-  const pastries = ['cookie', 'cupcake', 'donut', 'pie'];
+  var pastries = <String>[];
 }
 
 
