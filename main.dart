@@ -5,6 +5,10 @@ void main(List<String> args) {
   var morePastries = pastries.sublist(1, 3);
   print(morePastries);
 
+  morePastries.clear();
+  print(morePastries);
+  print(morePastries.isEmpty);
+
   // var pastries = <String>[];
   // pastries.add('dupik');
 
