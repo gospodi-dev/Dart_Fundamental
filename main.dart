@@ -2,6 +2,9 @@ void main(List<String> args) {
   const pastries = ['cookie', 'cupcake', 'donut', 'pie'];
   print(pastries[3]);
 
+  var morePastries = pastries.sublist(1, 3);
+  print(morePastries);
+
   // var pastries = <String>[];
   // pastries.add('dupik');
 
