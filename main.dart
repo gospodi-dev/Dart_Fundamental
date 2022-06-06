@@ -12,6 +12,15 @@ void main(List<String> args) {
   print(pastries[0]);
   print(pastries.first);
 
+  print(pastries.length); // колво элементов списка
+  print(pastries.reversed);
+  print(pastries.hashCode);
+  print(pastries.runtimeType); // вывод типов списка
+  print(pastries.first); // вывод первого элемента списка
+  print(pastries.iterator);
+  print(pastries.last);
+  // print(pastries.single);
+
   // var pastries = <String>[];
   // pastries.add('dupik');
 
