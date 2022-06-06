@@ -1,42 +1,48 @@
 void main(List<String> args) {
-  // String message;
-  // const chrisHasPerfectAttendnace = true;
-  // const chrisGrade = 49;
-  // const meritAwardGrande = 90;
-  // const chrisIsMeritStudent =
-  //     chrisHasPerfectAttendnace && chrisGrade > meritAwardGrande;
-
-  // const samGrade = 99;
-
-  // print(chrisIsMeritStudent);
-
-  // if (chrisIsMeritStudent) {
-  //   message = 'Поздравлямба!';
-  // } else {
-  //   message = 'Продолжай учиться!!!';
-  // }
-  // print(message);
-
-  // const betterStudent = (samGrade > chrisGrade) ? 'Sam' : 'Chris';
-
-  // print(betterStudent);
-
-  //Challenge time
-
-  const myAge = 10;
-  String message;
-
-  // if (myAge >= 13 && myAge <= 18) {
-  //   message = 'I am Tintin!';
-  // } else {
-  //   message = 'I am very old man :(';
-  // }
-
-  const messageAge =
-      (myAge >= 13 && myAge <= 18) ? 'I am Tintin!' : 'I am very old man';
-
-  print(messageAge);
+  const pastries = ['cookie', 'cupcake', 'donut', 'pie'];
 }
+
+
+
+// void main(List<String> args) {
+//   // String message;
+//   // const chrisHasPerfectAttendnace = true;
+//   // const chrisGrade = 49;
+//   // const meritAwardGrande = 90;
+//   // const chrisIsMeritStudent =
+//   //     chrisHasPerfectAttendnace && chrisGrade > meritAwardGrande;
+
+//   // const samGrade = 99;
+
+//   // print(chrisIsMeritStudent);
+
+//   // if (chrisIsMeritStudent) {
+//   //   message = 'Поздравлямба!';
+//   // } else {
+//   //   message = 'Продолжай учиться!!!';
+//   // }
+//   // print(message);
+
+//   // const betterStudent = (samGrade > chrisGrade) ? 'Sam' : 'Chris';
+
+//   // print(betterStudent);
+
+//   //Challenge time
+
+//   const myAge = 10;
+//   String message;
+
+//   // if (myAge >= 13 && myAge <= 18) {
+//   //   message = 'I am Tintin!';
+//   // } else {
+//   //   message = 'I am very old man :(';
+//   // }
+
+//   const messageAge =
+//       (myAge >= 13 && myAge <= 18) ? 'I am Tintin!' : 'I am very old man';
+
+//   print(messageAge);
+// }
 
 
 
