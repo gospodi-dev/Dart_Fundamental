@@ -13,6 +13,13 @@ void main(List<String> args) {
     total += firstTest;
   }
   total += grades[1] ?? 0;
+  total += grades[2]!;
+
+  print(grades);
+  print(total);
+
+  var average = total / grades.length;
+  print('The average is $average');
 }
 
 
