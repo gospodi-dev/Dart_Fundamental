@@ -7,6 +7,12 @@ void main(List<String> args) {
   grades.add(84);
 
   var total = 0;
+  var firstTest = grades[0];
+
+  if (firstTest != null) {
+    total += firstTest;
+  }
+  total += grades[1] ?? 0;
 }
 
 
