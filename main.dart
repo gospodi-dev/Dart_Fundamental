@@ -1,15 +1,25 @@
-void main() {
-  var johnTest = 84;
-  var tedTest = 32;
-  var suzyTest = 80;
+// спред оператор
 
-  var tests = [
-    if (johnTest > 75) johnTest,
-    if (tedTest > 75) tedTest,
-    if (suzyTest > 75) suzyTest,
-  ];
-  print(tests);
+void main(List<String> args) {
+  var yourCards = ['8🔥', '3💯', 'J⚡'];
+  var myCards = ['10🔥', 'Q🎖', '2⚡'];
 }
+
+
+
+
+// void main() {
+//   var johnTest = 84;
+//   var tedTest = 32;
+//   var suzyTest = 80;
+
+//   var tests = [
+//     if (johnTest > 75) johnTest,
+//     if (tedTest > 75) tedTest,
+//     if (suzyTest > 75) suzyTest,
+//   ];
+//   print(tests);
+// }
 
 
 
