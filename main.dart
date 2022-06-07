@@ -5,6 +5,8 @@ void main(List<String> args) {
   grades.add(100);
   grades.add(null);
   grades.add(84);
+
+  var total = 0;
 }
 
 
