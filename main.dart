@@ -5,7 +5,8 @@ void main(List<String> args) {
   var myCards = ['10🔥', 'Q🎖', '2⚡'];
   var bonusCard = ['A📌'];
 
-  var cards = [yourCards, myCards, bonusCard];
+  var cards = [...yourCards, ...myCards, ...bonusCard];
+  print(cards);
 }
 
 
