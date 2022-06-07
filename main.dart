@@ -1,56 +1,62 @@
-void main(List<String> args) {
-  var pastries = ['cookie', 'cupcake', 'donut', 'pie'];
-  print(pastries[3]);
+// Нулевая безопасность
 
-  var morePastries = pastries.sublist(1, 3);
-  print(morePastries);
+void main(List<String> args) {}
 
-  morePastries.clear();
-  print(morePastries);
-  print(morePastries.isEmpty);
 
-  print(pastries[0]);
-  print(pastries.first);
 
-  print(pastries.length); // колво элементов списка
-  print(pastries.reversed);
-  print(pastries.hashCode);
-  print(pastries.runtimeType); // вывод типов списка
-  print(pastries.first); // вывод первого элемента списка
-  print(pastries.iterator);
-  print(pastries.last);
-  // print(pastries.single);
+// void main(List<String> args) {
+//   var pastries = ['cookie', 'cupcake', 'donut', 'pie'];
+//   print(pastries[3]);
 
-  print(pastries.contains('cookie'));
+//   var morePastries = pastries.sublist(1, 3);
+//   print(morePastries);
 
-  pastries.add('brownie');
-  print(pastries);
-  pastries[4] = 'cream puff';
-  print(pastries);
+//   morePastries.clear();
+//   print(morePastries);
+//   print(morePastries.isEmpty);
 
-  pastries.insert(3, 'tart');
-  print(pastries);
+//   print(pastries[0]);
+//   print(pastries.first);
 
-  // Challenge time
-  const grades = [82, 76, 88, 92];
-  var sum = grades.first + grades[1] + grades[2] + grades.last;
-  var average = sum / grades.length;
-  print('среднее число - $average');
+//   print(pastries.length); // колво элементов списка
+//   print(pastries.reversed);
+//   print(pastries.hashCode);
+//   print(pastries.runtimeType); // вывод типов списка
+//   print(pastries.first); // вывод первого элемента списка
+//   print(pastries.iterator);
+//   print(pastries.last);
+//   // print(pastries.single);
 
-  // var list = [1, 2, 3];
-  // assert(list.length == 3);
-  // assert(list[1] == 2);
+//   print(pastries.contains('cookie'));
 
-  // list[1] = 1;
-  // assert(list[1] == 1);
-  // print(list);
-  // var pastries = <String>[];
-  // pastries.add('dupik');
+//   pastries.add('brownie');
+//   print(pastries);
+//   pastries[4] = 'cream puff';
+//   print(pastries);
 
-  // pastries += ['cupcake', 'donut', 'pie', 'brownie'];
+//   pastries.insert(3, 'tart');
+//   print(pastries);
 
-  // print(pastries);
-}
+//   // Challenge time
+//   const grades = [82, 76, 88, 92];
+//   var sum = grades.first + grades[1] + grades[2] + grades.last;
+//   var average = sum / grades.length;
+//   print('среднее число - $average');
+
+//   // var list = [1, 2, 3];
+//   // assert(list.length == 3);
+//   // assert(list[1] == 2);
+
+//   // list[1] = 1;
+//   // assert(list[1] == 1);
+//   // print(list);
+//   // var pastries = <String>[];
+//   // pastries.add('dupik');
+
+//   // pastries += ['cupcake', 'donut', 'pie', 'brownie'];
+
+//   // print(pastries);
+// }
 
 
 
