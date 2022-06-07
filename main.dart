@@ -1,6 +1,11 @@
 // Нулевая безопасность
 
-void main(List<String> args) {}
+void main(List<String> args) {
+  var grades = List<int?>.empty(growable: true);
+  grades.add(100);
+  grades.add(null);
+  grades.add(84);
+}
 
 
 
